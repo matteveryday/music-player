@@ -58,38 +58,62 @@
 
 /* Area Styling */
 
+.border-box {
+    box-sizing: border-box;
+}
+
 .playlist-box {
     border: 4px solid black;
+    height: 200px;
 }
 .info-box {
     border-top: 4px solid black;
     border-bottom: 4px solid black;
     border-right: 4px solid black;
+    height: 200px;
 }
 .description-box {
-    border: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    height: 200px;
 }
 .songs-box {
-    border: 4px solid black;
+    border-right: 4px solid black;
+    height: 404px;
 }
 .pattern-box {
-    border: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    height: 200px;
+    background: url(../assets/assets/imgs/pattern.png) repeat;
+    background-size: 30px;
 }
 .about-project-box {
-    border: 4px solid black;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    height: 200px;
 }
 .about-designer-box {
-    border: 4px solid black;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    height: 200px;
 }
 .button-box {
-    border: 4px solid black;
+    border-top: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    height: 200px;
 }
 
 /* Container Declaration */
 
 .container {
     max-width: 1200px;
-    margin: auto;
+    margin: 20px auto;
 }
 
 /* Clearfix */
@@ -281,4 +305,8 @@
     width:100%;
   }
 
+}
+.inner-pattern {
+    background: url(../assets/assets/imgs/pattern.png) repeat;
+    background-size: 30px;
 }
