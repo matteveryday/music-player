@@ -86,7 +86,7 @@
     border-left: 4px solid black;
     border-right: 4px solid black;
     height: 200px;
-    background: url(../assets/assets/imgs/pattern.png) repeat;
+    background: url(/assets/imgs/pattern.png) repeat;
     background-size: 30px;
 }
 .about-project-box {
@@ -107,6 +107,8 @@
     border-right: 4px solid black;
     border-bottom: 4px solid black;
     height: 200px;
+    background: url(/assets/imgs/pattern.png) repeat;
+    background-size: 30px;
 }
 
 /* Container Declaration */
