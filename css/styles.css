@@ -1,0 +1,67 @@
+
+
+
+
+/* Grid Area Declaration */
+
+.playlist-box {
+    grid-area: headerMain;
+}
+.info-box {
+    grid-area: headerSide;
+}
+.description-box {
+    grid-area: mainTopLeft;
+}
+.songs-box {
+    grid-area: mainCenter;
+}
+.pattern-box {
+    grid-area: mainBottomLeft;
+}
+.about-project-box {
+    grid-area: footerLeft;
+}
+.about-designer-box {
+    grid-area: footerMiddle;
+}
+.button-box {
+    grid-area: footerRight;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 350px 350px auto 350px;
+    grid-template-areas: "headerMain headerMain headerMain headerMain headerMain headerMain headerMain headerSide headerSide"
+                         "mainTopLeft mainTopLeft mainTopLeft mainCenter mainCenter mainCenter mainCenter . ."
+                         "mainBottomLeft mainBottomLeft mainBottomLeft mainCenter mainCenter mainCenter . ."
+                         "footerLeft footerLeft footerLeft footerMiddle footerMiddle footerMiddle footerRight footerRight footerRight"
+}
+
+/* Area Styling */
+
+.playlist-box {
+    border: 3px solid black;
+}
+.info-box {
+    border: 3px solid black;
+}
+.description-box {
+    border: 3px solid black;
+}
+.songs-box {
+    border: 3px solid black;
+}
+.pattern-box {
+    border: 3px solid black;
+}
+.about-project-box {
+    border: 3px solid black;
+}
+.about-designer-box {
+    border: 3px solid black;
+}
+.button-box {
+    border: 3px solid black;
+}
