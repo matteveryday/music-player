@@ -56,10 +56,18 @@
     font-weight: regular;
 }
 
+body {
+    font-family: 'helvetica', sans-serif;
+    padding: 10px;
+}
+
 /* Area Styling */
 
 .border-box {
     box-sizing: border-box;
+}
+.box {
+    padding: 25px;
 }
 
 .playlist-box {
@@ -80,7 +88,7 @@
 }
 .songs-box {
     border-right: 4px solid black;
-    height: 404px;
+    height: 454px;
 }
 .pattern-box {
     border-left: 4px solid black;
@@ -114,8 +122,8 @@
 /* Container Declaration */
 
 .container {
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* Clearfix */
