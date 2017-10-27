@@ -39,41 +39,29 @@
 
 /* Font Family */
 
-@font-face {
-    font-family: 'HK Grotesk Pro Regular';
-    src: url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.woff2") format("woff2"),
-    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.woff") format("woff"),
-    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.eot") format("eot"),
-    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.ttf") format("ttf");
-    font-weight: regular;
-}
-@font-face {
-    font-family: 'HK Grotesk Pro Bold';
-    src: url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.woff2") format("woff2"),
-    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.woff") format("woff"),
-    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.eot") format("eot"),
-    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.ttf") format("ttf");
-    font-weight: regular;
-}
-
 h1 {
     font-size: 36px;
+    font-family: 'Acumin', 'helvetica', sans-serif;
     margin: 0;
 }
 h2 {
     font-size: 24px;
+    font-family: 'Acumin', 'helvetica', sans-serif;
     margin: 0;
 }
 h3 {
     font-size: 18px;
+    font-family: 'Acumin', 'helvetica', sans-serif;
     margin: 0;
 }
 p {
     font-size: 18px;
+    font-family: 'Acumin', 'helvetica', sans-serif;
     margin 0;
 }
 a {
     font-size: 18px;
+    font-family: 'Acumin', 'helvetica', sans-serif;
     margin: 0;
 }
 
