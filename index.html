@@ -34,8 +34,8 @@
                 <div class="box playlist-box flex-single">
                     <div class="single-content">
                         <h1>
-                            <span class="playlist-title">Nu Disco</span>
-                            <span class="playlist-title">French Touch</span>
+                            <span class="playlist-title" data-overlay=".overlay-bg-nu-disco">Nu Disco</span>
+                            <span class="playlist-title" data-overlay=".overlay-bg-french-touch">French Touch</span>
                             <span class="playlist-title">Beats</span>
                             <span class="playlist-title">Friday Funk</span>
                             <span class="playlist-title">Zone Out</span>
@@ -149,6 +149,13 @@
         
     </div>
     
-  <script src="js/scripts.js"></script>
+    <div class="overlay-bg overlay-bg-default visible"></div>
+    <div class="overlay-bg overlay-bg-nu-disco"></div>
+    <div class="overlay-bg overlay-bg-french-touch"></div>
+    
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 </html>

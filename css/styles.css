@@ -82,10 +82,7 @@ a {
 }
 
 body {
-    font-family: "acumin-pro", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    padding: 10px;
+    margin: 0;
 }
 
 /* Area Styling */
@@ -200,6 +197,8 @@ body {
 .container {
     max-width: 1366px;
     margin: 0 auto;
+    padding: 15px;
+    height: 100%;
 }
 
 /* Clearfix */
@@ -617,4 +616,27 @@ a {
     .xs-only {
         display: none;
     }
+}
+
+.overlay-bg {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity .4s ease;
+}
+.overlay-bg-default {
+    background-color: white;
+}
+.overlay-bg-nu-disco {
+    background-color: darkturquoise;
+}
+.overlay-bg-french-touch {
+    background-color: blanchedalmond;
+}
+.visible {
+    opacity: 1;
 }
