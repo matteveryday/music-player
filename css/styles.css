@@ -157,7 +157,17 @@ body {
     }
 }
 
-
+.playlist-title {
+    color: rgba(0,0,0,0.1)
+}
+.playlist-title:hover,
+.playlist-title:focus,
+.playlist-title:active {
+    color: black;
+}
+.playlist-title:hover {
+    cursor: pointer;
+}
 
 .button {
     color: white;
