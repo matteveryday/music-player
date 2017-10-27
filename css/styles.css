@@ -41,23 +41,44 @@
 
 @font-face {
     font-family: 'HK Grotesk Pro Regular';
-    src: url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.woff2") format("woff2"),
-    url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.woff") format("woff"),
-    url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.eot") format("eot"),
-    url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.ttf") format("ttf");
+    src: url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.woff2") format("woff2"),
+    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.woff") format("woff"),
+    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.eot") format("eot"),
+    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Regular.ttf") format("ttf");
     font-weight: regular;
 }
 @font-face {
     font-family: 'HK Grotesk Pro Bold';
-    src: url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.woff2") format("woff2"),
-    url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.woff") format("woff"),
-    url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.eot") format("eot"),
-    url("../fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.ttf") format("ttf");
+    src: url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.woff2") format("woff2"),
+    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.woff") format("woff"),
+    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.eot") format("eot"),
+    url("fonts/HK_Grotesk_Pro/HKGroteskPro-Bold.ttf") format("ttf");
     font-weight: regular;
 }
 
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+h3 {
+    font-size: 18px;
+    margin: 0;
+}
+p {
+    font-size: 18px;
+    margin 0;
+}
+a {
+    font-size: 18px;
+    margin: 0;
+}
+
 body {
-    font-family: 'helvetica', sans-serif;
+    font-family: 'HK Grotesk Pro Regular', sans-serif;
     padding: 10px;
 }
 
@@ -114,11 +135,11 @@ body {
     border-top: 4px solid black;
     border-right: 4px solid black;
     border-bottom: 4px solid black;
-    height: 250px;
+    height: 258px;
     background: url(../assets/imgs/pattern.png) repeat;
     background-size: 30px;
     padding: 0px;
-    width: 100%;
+    box-sizing: border-box;
 }
 .button {
     color: white;
@@ -130,7 +151,7 @@ body {
 /* Container Declaration */
 
 .container {
-    max-width: 1440px;
+    max-width: 1366px;
     margin: 0 auto;
 }
 
@@ -420,5 +441,15 @@ a {
 .test-container {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.flex-single {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.single-content {
+    align-self: flex-end;
+    width: 100%;
 }
