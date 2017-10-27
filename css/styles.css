@@ -39,6 +39,8 @@
 
 /* Font Family */
 
+
+
 h1 {
     font-size: 36px;
     font-family: 'Acumin', 'helvetica', sans-serif;
@@ -63,6 +65,11 @@ a {
     font-size: 18px;
     font-family: 'Acumin', 'helvetica', sans-serif;
     margin: 0;
+}
+.acumin-test {
+    font-family: "acumin-pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
 }
 
 body {
