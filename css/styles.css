@@ -108,6 +108,16 @@ body {
     border-right: 4px solid black;
     border-bottom: 4px solid black;
     height: 200px;
+    padding: 0;
+}
+.top-content {
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 50px;
+}
+.bottom-content {
+    align-self: flex-end;
 }
 .songs-box {
     border-right: 4px solid black;
@@ -466,7 +476,7 @@ a {
 .align-middle{ vertical-align:middle }
 .align-bottom{ vertical-align:bottom }
 
-.test-container {
+.flex-double {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
