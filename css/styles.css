@@ -175,7 +175,8 @@ body {
 }
 
 .playlist-title {
-    color: rgba(0,0,0,0.1)
+    color: rgba(0,0,0,0.1);
+    transition: .4s;
 }
 .playlist-title:hover,
 .playlist-title:focus,
@@ -184,6 +185,10 @@ body {
 }
 .playlist-title:hover {
     cursor: pointer;
+}
+.surprise-me:hover,
+.surprise-me:active {
+    color: white;
 }
 
 .button {
@@ -619,6 +624,8 @@ a {
     }
 }
 
+/* Background Utilities */
+
 .overlay-bg {
     z-index: -1;
     position: absolute;
@@ -629,15 +636,66 @@ a {
     opacity: 0;
     transition: opacity .4s ease;
 }
+.visible {
+    opacity: 1;
+}
+
+/* Background Colors */
+
 .overlay-bg-default {
     background-color: white;
 }
 .overlay-bg-nu-disco {
-    background-color: darkturquoise;
+    background-color: #1853C9;
 }
 .overlay-bg-french-touch {
-    background-color: blanchedalmond;
+    background-color: #FFFBB5;
 }
-.visible {
-    opacity: 1;
+.overlay-bg-beats {
+    background-color: #3A4C5C;
+}
+.overlay-bg-friday-funk {
+    background-color: #16C4C2;
+}
+.overlay-bg-zone-out {
+    background-color: #0D5C63;
+}
+.overlay-bg-sunday-morning {
+    background-color: #DFACA5;
+}
+.overlay-bg-lounge-house {
+    background-color: #0E4B4F;
+}
+.overlay-bg-timeless-hip-hop {
+    background-color: #E7E9E9;
+}
+.overlay-bg-surprise-me {
+    background-color: #020100;
+}
+.overlay-bg-rooftop-chill {
+    background-color: #8AD9EA;
+}
+.overlay-bg-jazz-influence {
+    background-color: #AC4577;
+}
+.overlay-bg-deep-house {
+    background-color: #474448;
+}
+.overlay-bg-winter {
+    background-color: #98AC91;
+}
+.overlay-bg-saturday-night {
+    background-color: #FF4C3F;
+}
+.overlay-bg-take-it-easy {
+    background-color: #F3FAF7;
+}
+.overlay-bg-samba {
+    background-color: #FFEB6C;
+}
+.overlay-bg-coffee-time {
+    background-color: #CDA673;
+}
+.overlay-bg-slow-down {
+    background-color: #ECEDDB;
 }
