@@ -221,6 +221,7 @@ body {
 .col{
   float:left;
   box-sizing:border-box;
+  height: auto;
 }
 
 .col-right{
@@ -698,4 +699,8 @@ a {
 }
 .overlay-bg-slow-down {
     background-color: #ECEDDB;
+}
+
+.section {
+    border: 2px solid yellow;
 }
