@@ -130,12 +130,11 @@ body {
 .pattern-box {
     border-left: 4px solid black;
     border-right: 4px solid black;
-    height: 200px;
     background: url(../assets/imgs/pattern.png) repeat;
     background-size: 30px;
 }
 .pattern-box.flex-auto {
-    height: 100%;
+    ???
 }
 .about-project-box {
     border-top: 4px solid black;
@@ -501,7 +500,7 @@ a {
     padding-top: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
 }
 .bottom-content {
     align-self: flex-end;
