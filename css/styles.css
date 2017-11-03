@@ -169,6 +169,24 @@ body {
         border-bottom: none;
         height: 100%;
     }
+    .songs-box {
+        border-left: 4px solid black;
+        border-bottom: 4px solid black;
+    }
+    .about-designer-box {
+        border-top: none;
+        border-left: 4px solid black;
+    }
+    .button-box {
+        border-top: none;
+        border-left: 4px solid black;
+        background: none;
+        height: 100%;
+    }
+}
+
+.pattern-box.xs-only {
+    height: 200px;
 }
 
 .playlist-title {
@@ -696,8 +714,4 @@ a {
 }
 .overlay-bg-slow-down {
     background-color: #ECEDDB;
-}
-
-.section {
-    border: 2px solid yellow;
 }
