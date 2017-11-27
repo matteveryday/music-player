@@ -201,9 +201,18 @@ body {
 .playlist-title:hover {
     cursor: pointer;
 }
-#surprise-me:hover,
+/*#surprise-me:hover,*/
+/*
 #surprise-me:active {
     color: white;
+}
+*/
+#surprise-me.active {
+    color: white;
+}
+
+.active {
+    color: rgba(0,0,0,1);
 }
 
 .button {

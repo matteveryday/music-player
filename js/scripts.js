@@ -1,7 +1,7 @@
 
 
-// Changes the background color of the page
-$('h1 .playlist-title').hover(function () {
+// Changes the background color of the page on HOVER
+$('h1 .playlist-title').click(function () {
     
     var link = $(this)
     var overlay = link.data('overlay')
@@ -17,9 +17,17 @@ $('h1 .playlist-title').hover(function () {
 })
 
 // Keeps the buttons white when hovering over Surprise Me playlist
-$('#surprise-me').hover(function (){
+$('#surprise-me').click(function (){
 
     $('.button').css("color", "white")
     
 })
 
+
+// Keep playlist title black when you click on one
+$('h1 .playlist-title').click(function () {
+    
+    $('.playlist-title').removeClass('active')
+    $(this).addClass('active')
+    
+})
