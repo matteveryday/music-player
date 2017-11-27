@@ -46,11 +46,12 @@ html {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 40px;
     font-family: "acumin-pro", sans-serif;
     font-style: normal;
     font-weight: 700;
     margin: 0;
+    line-height: 1.2;
 }
 h2 {
     font-size: 24px;
