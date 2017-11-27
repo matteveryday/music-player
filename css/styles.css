@@ -200,8 +200,8 @@ body {
 .playlist-title:hover {
     cursor: pointer;
 }
-.surprise-me:hover,
-.surprise-me:active {
+#surprise-me:hover,
+#surprise-me:active {
     color: white;
 }
 
